@@ -1,4 +1,4 @@
-# Data-Analysis-with-R
+# Data Analysis with R
 ## Goals
 * Describe the R programming language and its programming environment
 * Explain the fundamental concepts associated with programming in R including functions, variables, data types, pipes, and vectors
