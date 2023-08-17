@@ -2,6 +2,7 @@ install.packages("Tmisc")
 library(Tmisc)
 data("quartet")
 View(quartet)
+install.packages("dplyr")
 library("dplyr")
 
 # get a summary of these statistical measures
