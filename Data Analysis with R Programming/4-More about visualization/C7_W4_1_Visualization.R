@@ -22,3 +22,9 @@ ggplot(data = penguins) + # use the plus sign to add layers to your plot
 # 1. start with the ggplot function and choose a dataset to work with, 
 # 2. add a geom_function to display your data, 
 # 3. map the variables you want to plot in the argument of the aes function.
+
+ggplot(data = penguins) + 
+  geom_point(mapping = aes(x = flipper_length_mm, y = body_mass_g, alpha = species), color ="purple")
+
+ggplot(data = penguins) + 
+  geom_point(mapping = aes(x = flipper_length_mm, y = body_mass_g, color = species, shape = species, size = species))
